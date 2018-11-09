@@ -1,0 +1,40 @@
+{
+  "name": "@mutual8/m8-react-components",
+  "version": "0.0.1",
+  "description": "Basic component library for Mutual8 React apps.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutual8/m8-react-components.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mutual8/m8-react-components/issues"
+  },
+  "homepage": "https://github.com/mutual8/m8-react-components#readme",
+  "dependencies": {
+    "@mutual8/m8-react-base-theme": "git+https://github.com/mutual8/m8-react-base-theme.git"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.1",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "webpack": "^4.25.1"
+  }
+}
